@@ -14,16 +14,16 @@ I. Resources (Matlab)
 
 II. Dependencies
 -----------------
-d4d  --> ved4sphere --> vedorth300.c
+	d4d  --> ved4sphere --> vedorth300.c
 
-d4s  --> vbs4sphere --> vbd4orth300x.c
+	d4s  --> vbs4sphere --> vbd4orth300x.c
 
 The C-routines were compiled under Linux using the GNU scientific library, gsl, and
 the gslcblas library. These routines provide Bessel functions and their roots. Other libraries may provide these functions in other environments. The C-routines are compiled under Matlab with the commands:
 
-   mex ved4orth300.c -lgsl -lgslcblas  -lm
+	mex ved4orth300.c -lgsl -lgslcblas  -lm
 
-   mex vbd4orth300x.c -lgsl -lgslcblas  -lm 
+	mex vbd4orth300x.c -lgsl -lgslcblas  -lm 
 
 III. Data Structures
 --------------------
